@@ -1,0 +1,354 @@
+/*
+Theme Name: Forte50: Admired Child
+Description: Forte50 Preliminary Site, Custom theme is a child theme of the Admired theme
+Author: Anson Han, The StarGroup
+Author URI: http://www.stargroup1.com
+Template: admired
+Version: 1.0
+*/
+
+@import url("../admired/style.css");
+
+/* Add specific style overrides below.
+-------------------------------------*/
+
+body {
+  background: #ebecef !important;
+}
+
+#head-wrapper {
+background-image:none !important;
+background-image: linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+background-image: -o-linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+background-image: -moz-linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+background-image: -webkit-linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+background-image: -ms-linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EF9336', endColorstr='#EE9236') !important;
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	right top,
+	color-stop(0.15, #EF9336),
+	color-stop(0.58, #EE9236)
+) !important;
+border-bottom: 3px solid #939598 !important;
+}
+
+#header-group hgroup {
+width: 100% !important;
+height: 110px;
+}
+#branding #header-group {
+margin: 0 auto 5px auto !important;
+}
+h1#site-title {
+  background:url('images/forte-logo.png') top left no-repeat !important;
+  visibility:visible;
+  display:inline-block !important;
+  width:180px;
+  height:90px;
+  margin:0;
+  padding:0;
+  float:left !important;
+}
+
+h1#site-title span {
+  width:180px;
+  height:90px;
+  display:inline-block;
+  visibility:visible;
+}
+#site-title a {
+  opacity: 1.0 !important;
+  filter: alpha(opacity=100);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  font-weight: normal !important;
+  text-decoration: none !important;
+  width:180px;
+  height:90px;
+  visibility:visible;
+  display:inline-block;
+}
+
+h2#site-description {
+  float:right !important;
+  display:inline-block !important;
+  background:url('images/forte-tagline.png') top right no-repeat !important;
+  visibility:visible;
+  margin:0;
+  padding:0;
+  font-size: 0px !important;
+  font-weight: normal !important;
+  line-height: 0px !important;
+  min-height:73px;
+  min-width:253px;
+  position:relative;
+  top:-73px;
+}
+
+
+#nav-menu2 .menu ul li a, #nav-menu2 .menu ul li a:visited, #nav-menu2 .menu ul li a:hover, #nav-menu2 .menu ul li a:active {
+  font-size:110% !important;
+  padding: .15em 1.2125em !important;
+  font-weight:bold !important;
+}
+
+
+#main {
+  min-height:560px !important;
+}
+
+#secondary, #tertiary {
+padding: 0px 5px 0px 5px !important;
+}
+
+#branding-widget.widget {
+  background:none !important;
+  border:none !important;
+  margin:0;
+  padding:0;
+  -moz-box-shadow: 0 0 0 #BBB;
+  -webkit-box-shadow: 0 0 0 #BBB;
+  box-shadow: 0 0 0 #BBB;
+}
+
+#branding-widget.widget img {
+  width:282px !important;
+  max-width:none !important;
+}
+
+.widget {
+  background: #a2a4a7 !important;
+  border:none !important;
+  padding: 10px 11px;
+}
+
+.widget form input {
+  background:#fff !important;
+}
+
+.widget-title {
+  background: #a2a4a7 !important;
+  moz-border-radius: 0 0 0 0 !important;
+  -webkit-border-radius: 0 0 0 0 !important;
+  border-radius: 0 0 0 0 !important;
+  border:none !important;
+  text-shadow:none !important;
+  color:#fff !important;
+  text-transform:uppercase;
+  text-align:center;
+  letter-spacing: -0.1em;
+  padding-bottom:10px;
+  margin-bottom:0;
+}
+
+.widget ul {
+  margin-left: 20px !important;
+}
+
+.resource-img {
+  float: left;
+  padding: 0 20px 20px 0;
+}
+
+.resource-img img {
+  padding:0;
+  margin:0;
+}
+
+#footer {
+  background:url('images/forte-footer.png') no-repeat bottom center !important;
+  border-top:none !important;
+}
+#footer-info {
+  float:left;
+  width:88%;
+}
+#footer-nav-links {
+  float:right;
+  color:#fff;
+  padding: 18px 4px 4px 0;
+}
+#footer-nav-links a, #footer-nav-links a:visited, #footer-nav-links a:active {
+  float:right;
+  color:#fff;
+  padding-right:10px;
+  text-decoration:none;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 2.2em;
+  letter-spacing: -0.1em;
+}
+#footer-nav-links a:hover {
+  text-decoration:underline;
+}
+
+#scroll-top {
+background: url('images/back-to-top-nav.png') no-repeat bottom right !important;
+width: 144px;
+height: 50px;
+float: right;
+position:relative;
+top:48px;
+left:130px;
+}
+
+#site-info {
+float: left;
+font-family:Arial,sans-serif;
+position: relative;
+min-width: 60px;
+color: #fff !important;
+font-size: 14px;
+font-weight: normal;
+line-height: 2.2em;
+text-align: left;
+padding:  15px 0px 4px 10px !important;
+text-shadow: none !important;
+letter-spacing: -0.1em;
+}
+
+#site-info a, #site-info a:active, #site-info a:visited {
+color: #fff !important;
+font-size: 14px;
+font-weight: normal;
+line-height: 2.2em;
+text-shadow: none !important;
+
+}
+
+#searchform input {
+text-align:right;
+}
+
+#featured_home_image {
+  padding:0;
+  overflow:hidden;
+  margin-bottom:1.225em;
+}
+#featured_home_image img {
+  -moz-box-shadow: 0 0 5px #BBB;
+  -webkit-box-shadow: 0 0 5px #BBB;
+  box-shadow: 0 0 5px #BBB;
+  border: 1px solid #CCC;
+}
+#post-19 .entry-title {
+  visibility:hidden !important;
+  display:none !important;
+}
+#post-19 .entry-content {
+  padding-top:5px !important;
+}
+
+#post-8.page {
+  min-height:30px !important;
+}
+
+#post-8.page .entry-content {
+  padding:0;
+}
+
+.resource-content .entry-content {
+  padding:0;
+}
+
+.resource-content .entry-content h2 {
+  display:block;
+  clear:none;
+}
+
+.widget_custom-contact-forms form, .widget_custom-contact-forms form div {
+padding:0 !important;
+margin: 0 auto !important;
+text-align:center;
+}
+
+.widget_custom-contact-forms form label {
+font-family:Arial,sans-serif;
+font-weight:bold;
+text-align:left;
+color:#fff;
+text-transform:uppercase;
+padding-left:10px;
+font-size:14px;
+}
+
+.widget_custom-contact-forms form input {
+  width: 88% !important;
+  max-width: 16em !important;
+  margin: 2px 0 4px 0 !important;
+  padding:4px !important;
+  text-align:right;
+}
+
+.widget_custom-contact-forms form input.submit {
+  width: 95% !important;
+  max-width: 16em !important;
+  margin: 2px 0 4px 0 !important;
+  padding:4px !important;
+  color:#fff;
+  font-weight:bold;
+  text-align:center;
+  text-transform:uppercase;
+  background-image:none !important;
+background-image: linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+background-image: -o-linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+background-image: -moz-linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+background-image: -webkit-linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+background-image: -ms-linear-gradient(left , #EF9336 15%, #EE9236 58%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EF9336', endColorstr='#EE9236') !important;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	right top,
+	color-stop(0.15, #EF9336),
+	color-stop(0.58, #EE9236)
+) !important;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+
+@media (min-width:450px) and (max-width: 650px) {
+#secondary, #tertiary, .left-sidebar #secondary, .left-sidebar #tertiary, .two-sidebars #secondary, .two-sidebars #tertiary {
+  clear:both;
+  float:none;
+}
+
+
+}
+
+@media (min-device-width:320px) and (max-width: 450px) {
+h2#site-description {
+  float:right !important;
+  display:inline-block !important;
+  background:url('images/forte-tagline.png') top right no-repeat !important;
+  visibility:visible;
+  margin:0;
+  padding:0;
+  font-size: 0px !important;
+  font-weight: normal !important;
+  line-height: 0px !important;
+  min-height:73px;
+  min-width:253px;
+  position:relative;
+  top:-48px;
+  left:20px;
+}
+
+#secondary, #tertiary, .left-sidebar #secondary, .left-sidebar #tertiary, .two-sidebars #secondary, .two-sidebars #tertiary {
+  float:none;
+}
+
+#footer-nav-links {
+  display:none;
+  visibility:hidden;
+}
+#site-info {
+  min-width:200px;
+}
+
+}
+

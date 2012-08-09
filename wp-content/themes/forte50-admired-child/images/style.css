@@ -1,0 +1,13 @@
+/*
+Theme Name: Band Of Artists
+Description: Child theme for the Admired theme
+Author: Anson Han (@thecraftycanvas), The Crafty Canvas
+Author URI: http://www.thecraftycanvas.com
+Template: admired
+Version: 1.0
+*/
+
+@import url("../admired/style.css");
+
+/* Add specific style overrides below.
+-------------------------------------*/#head-wrapper, #footer {  background-image: url('images/light-header.png') !important;}#branding #header-group {  padding-bottom:5px;}#header-logo {  background-image:none !important;  width:80%;  height:auto !important;}#logo-banner {  min-width:320px;  width:90%;  padding:0;  border:none;  text-decoration:none;}#tourette_syndrome_widget {  width:100%;  min-height:400px;  overflow:hidden;}#tourette_syndrome_widget.tic-off {}#tourette_syndrome_stop_button {  width:70%;  margin:auto;  z-index:30;  background:#fff;  color:#000;  font-size:165%;  font-weight:bold;  position:relative;  top:-330px;  left:0px;  opacity:0.8;  filter:alpha(opacity=80);  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";  padding:10px;  text-align:center;}#ts-overlay h1 {  font-size:28px;  font-weight:bold;  text-align:center;  margin:0 0 10px 0;  font-style:italic;  color:#990000;}#ts-overlay ul {  margin:0 0 10px 15px;}#ts-overlay h2 {  display:inline;  font-size:18px;  color:#990000;}#ts-overlay p {  font-size:16px;  font-style:normal;  font-family: Arial, sans-serif;  line-height:1.4em;  margin:10px;}#ts-overlay blockquote {  font-size:18px;  font-style:italic;  font-family: Times, serif;  line-height:1.4em;  margin:10px 25px;}#ts-overlay ul#call-to-action-list {  margin: 0 0 10px 40px;}#ts-overlay ul#call-to-action-list li{  padding: 8px 0 0 0;}#sub-content {  padding:10px 0;  width:100%;}.home .call-to-action {  float:left;}.home #CTA2 {  padding:0 10px;}.resource-img {  width:170px;  display:block;  float:left;  padding:0 20px 0 0;  text-align:center;  }.resource-img img {  max-width:150px; }.resource-content { display:block; width:540px; float:left; }   .page-title a , .page-title a:visited, .page-title a:active {  color: #666;  font-size: 10px;  font-weight: 500;  letter-spacing: 0.1em;  line-height: 2.6em;  text-transform: uppercase;}.page-title a:hover {  color: #F5690C;  text-decoration:underline;}    .intro-text {  margin:0 0 0 10px;  padding: 0 0 10px 0; } .intro-text .entry-content {   padding: 10px 0 10px 0;   border-bottom:1px dotted #999;} .intro-text .entry-content p {  margin:0; } .intro-text h1{  margin:0 0 0 0;  padding:0 0 0 0; }
